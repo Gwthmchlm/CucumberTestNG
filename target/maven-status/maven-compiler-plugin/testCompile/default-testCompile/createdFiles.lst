@@ -1,0 +1,5 @@
+com\stepDefinition\Stepdefinition.class
+com\testRunner\TestRunner.class
+com\stepDefinition\JVMReportGeneration.class
+com\stepDefinition\HooksClass.class
+types\of\locators\LocatorsTypes.class

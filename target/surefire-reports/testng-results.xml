@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.testRunner.TestRunner" duration-ms="10011" started-at="2021-09-01T11:41:25Z" finished-at="2021-09-01T11:41:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@6276ae34]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="10011" started-at="2021-09-01T11:41:25Z" finished-at="2021-09-01T11:41:35Z">
+      <class name="com.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testRunner.TestRunner@6276ae34]" name="setUpClass" is-config="true" duration-ms="246" started-at="2021-09-01T11:41:25Z" finished-at="2021-09-01T11:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@6276ae34]" name="runScenario" duration-ms="8040" started-at="2021-09-01T11:41:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-01T11:41:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To valoidate the valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="jvmReport()[pri:0, instance:com.testRunner.TestRunner@6276ae34]" name="jvmReport" is-config="true" duration-ms="1577" started-at="2021-09-01T11:41:33Z" finished-at="2021-09-01T11:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jvmReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunner@6276ae34]" name="tearDownClass" is-config="true" duration-ms="76" started-at="2021-09-01T11:41:35Z" finished-at="2021-09-01T11:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testRunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testRunner.TestRunner -->
+</testng-results>

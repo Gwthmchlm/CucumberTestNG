@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelExecution">
+	<test name="Test">
+		<classes>
+			<class name="com.testRunner.TestRunner"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- ParallelExecution -->

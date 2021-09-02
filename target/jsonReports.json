@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "To valoidate the valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-valoidate-the-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5695136300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in the adactin homepage \"http://adactinhotelapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://adactinhotelapp.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Stepdefinition.user_is_in_the_adactin_homepage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 430472700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the loginId \"GOWTHAMK\" and password \"Myvizhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GOWTHAMK\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Myvizhi\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinition.user_enters_the_loginId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1728775100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the login button \u0026 navigate to the homepage",
+            "match": {
+              "location": "Stepdefinition.user_clicks_on_the_login_button_navigate_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/01Feature.feature",
+    "tags": []
+  }
+]
